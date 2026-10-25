@@ -91,5 +91,4 @@ While working on this project, I improved my understanding of:
 This project helped me understand how raw data can be transformed into structured information that supports business analysis. It also gave me practical experience with SQL Server, data warehousing concepts, ETL processes, and analytical data modeling.
 
 
-**License:** No license has been specified for this project.
 
