@@ -37,7 +37,7 @@ BEGIN
 				                SELECT * , ROW_NUMBER() OVER(PARTITION BY cst_id ORDER BY cst_create_date DESC) flag_last
 				                FROM bronze.crm_cust_info 
 				                                            )t
-                WHERE flag_last = 1
+                WHERE flag_last = 1 AND cst_id IS NOT NULL
 
                 PRINT '=========== TRUNCATING THE TABLE ==========='
                 PRINT ''
